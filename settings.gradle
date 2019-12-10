@@ -1,1 +1,1 @@
-include ':sample', ':relinker'
+include ':sample', ':relinker','un7zip'

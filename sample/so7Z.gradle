@@ -1,0 +1,68 @@
+import java.nio.channels.FileChannel
+
+def sos = ['libhellojni.so', 'libhello.so']
+
+Task transformReleaseSo2Assets = project.task('transformReleaseSo2Assets') {
+    doLast {
+        int index = 1;
+        sos.forEach({ name ->
+            println "transformReleaseSo2Assets--------------执行-> ${index++}.$name"
+            transformSo("$buildDir/intermediates/transforms/stripDebugSymbol/release/0/lib",//
+                    "$buildDir/intermediates/merged_assets/release/mergeReleaseAssets/out/lib/", name)
+        })
+    }
+}
+
+private void transformSo(String sourceDir, String dstDir, String name) {
+    def source = ["armeabi/$name", "armeabi-v7a/$name", "arm64-v8a/$name", "x86/$name", "x86_64/$name"]
+    source.forEach({ path ->
+        def src = file("$sourceDir/$path")
+        if (src.exists()) {
+            File dest = file("${dstDir}${path.replace(".so", ".7z")}")
+            def parentFile = dest.getParentFile()
+            if (!parentFile.exists()) {
+                parentFile.mkdirs()
+            }
+            if (dest.exists()) {
+                dest.delete()
+            }
+            String cmd = "\"C:/Program Files/7-Zip/7z.exe\" a -t7z ${dest.getAbsolutePath()} ${src.getAbsolutePath()} -mx=9 -m0=LZMA2 -ms=10m -mf=on -mhc=on -mmt=on";
+            println cmd
+            Runtime.getRuntime().exec(cmd).waitFor()
+//            copyFileUsingFileChannels(src, file("$dstDir/$path"))
+            src.delete()
+        }
+    })
+};
+
+Task transformDebugSo2Assets = project.task('transformDebugSo2Assets') {
+    doLast {
+        int index = 1;
+        sos.forEach({ name ->
+            println "transformDebugSo2Assets--------------执行-> ${index++}.$name"
+            transformSo("$buildDir/intermediates/transforms/stripDebugSymbol/debug/0/lib",//
+                    "$buildDir/intermediates/merged_assets/debug/mergeDebugAssets/out/lib/", name)
+        })
+    }
+}
+
+project.tasks.whenTaskAdded { Task theTask ->
+    if (theTask.name == "transformResourcesWithMergeJavaResForRelease") {
+        theTask.dependsOn(transformReleaseSo2Assets)
+    } else if (theTask.name == "transformResourcesWithMergeJavaResForDebug") {
+        theTask.dependsOn(transformDebugSo2Assets)
+    }
+}
+
+private void copyFileUsingFileChannels(File source, File dest) throws IOException {
+    FileChannel inputChannel = null;
+    FileChannel outputChannel = null;
+    try {
+        inputChannel = new FileInputStream(source).getChannel();
+        outputChannel = new FileOutputStream(dest).getChannel();
+        outputChannel.transferFrom(inputChannel, 0, inputChannel.size());
+    } finally {
+        inputChannel.close();
+        outputChannel.close();
+    }
+}

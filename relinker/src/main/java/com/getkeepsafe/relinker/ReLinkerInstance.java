@@ -40,7 +40,7 @@ public class ReLinkerInstance {
     protected ReLinker.Logger logger;
 
     protected ReLinkerInstance() {
-        this(new SystemLibraryLoader(), new ApkLibraryInstaller());
+        this(new SystemLibraryLoader(), new ApkAssets7ZLibraryInstaller());
     }
 
     protected ReLinkerInstance(final ReLinker.LibraryLoader libraryLoader,
@@ -184,11 +184,13 @@ public class ReLinkerInstance {
         try {
             if (recursive) {
                 ElfParser parser = null;
-                final List<String> dependencies;
+                List<String> dependencies = null;
                 try {
                     parser = new ElfParser(workaroundFile);
                     dependencies = parser.parseNeededDependencies();
-                }finally {
+                } catch (Exception e) {
+                    e.printStackTrace();
+                } finally {
                     parser.close();
                 }
                 for (final String dependency : dependencies) {

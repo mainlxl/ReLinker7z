@@ -56,7 +56,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Try calling the native function to retrieve a string to display, then try deleting the native library and calling the function again. ReLinker will re-install the native library, ensuring your call works"/>
+        android:text="尝试调用本机函数以检索要显示的字符串，然后尝试删除本机库并再次调用该函数。 ReLinker将重新安装本机库，以确保您的通话正常"/>
 
     <TextView
         android:id="@+id/tree"

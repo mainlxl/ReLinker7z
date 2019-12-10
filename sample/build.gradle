@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-
+apply from: 'so7Z.gradle'
 repositories {
     mavenCentral()
 }
@@ -24,14 +24,15 @@ android {
     }
     buildTypes {
         release {
+            signingConfig signingConfigs.debug
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
 }
 
 dependencies {
-    compile project(':relinker')
-    testCompile 'junit:junit:4.12'
+    implementation project(':relinker')
+    implementation 'junit:junit:4.12'
 }
+
 
