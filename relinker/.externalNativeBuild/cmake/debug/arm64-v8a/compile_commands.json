@@ -1,0 +1,139 @@
+[
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\7zExtracter.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\7zExtracter.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\7zExtracter.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\7zFunctions.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\7zFunctions.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\7zFunctions.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\src\\7zAlloc.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zAlloc.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zAlloc.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\src\\7zArcIn.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zArcIn.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zArcIn.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\src\\7zAssetFile.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zAssetFile.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zAssetFile.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\src\\7zBuf.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zBuf.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zBuf.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\src\\7zBuf2.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zBuf2.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zBuf2.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\src\\7zCrc.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zCrc.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zCrc.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\src\\7zCrcOpt.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zCrcOpt.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zCrcOpt.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\src\\7zDec.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zDec.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zDec.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\src\\7zFile.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zFile.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zFile.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\src\\7zStream.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zStream.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zStream.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\src\\Bcj2.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\Bcj2.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\Bcj2.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\src\\Bra.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\Bra.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\Bra.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\src\\Bra86.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\Bra86.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\Bra86.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\src\\BraIA64.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\BraIA64.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\BraIA64.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\src\\CpuArch.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\CpuArch.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\CpuArch.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\src\\Delta.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\Delta.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\Delta.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\src\\Lzma2Dec.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\Lzma2Dec.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\Lzma2Dec.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\src\\LzmaDec.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\LzmaDec.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\LzmaDec.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\src\\Ppmd7.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\Ppmd7.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\Ppmd7.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\src\\Ppmd7Dec.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\Ppmd7Dec.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\Ppmd7Dec.c"
+},
+
+{
+  "directory": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DNATIVE_LOG -Wall -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -o CMakeFiles\\un7zip.dir\\un7zip.c.o   -c D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\un7zip.c",
+  "file": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\un7zip.c"
+}
+]

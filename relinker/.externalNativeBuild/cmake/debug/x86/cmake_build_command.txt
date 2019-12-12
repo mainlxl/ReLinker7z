@@ -1,0 +1,20 @@
+Executable : D:\WorkTools\Android-SDK\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HD:\Work\ReLinker\relinker\src\main\cpp
+-BD:\Work\ReLinker\relinker\.externalNativeBuild\cmake\debug\x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-16
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\Work\ReLinker\relinker\build\intermediates\cmake\debug\obj\x86
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=D:\WorkTools\Android-SDK\ndk-bundle
+-DCMAKE_C_FLAGS=-DNATIVE_LOG
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DCMAKE_SYSTEM_VERSION=16
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_ANDROID_NDK=D:\WorkTools\Android-SDK\ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=D:\WorkTools\Android-SDK\ndk-bundle\build\cmake\android.toolchain.cmake
+-G Ninja
+-DCMAKE_MAKE_PROGRAM=D:\WorkTools\Android-SDK\cmake\3.10.2.4988404\bin\ninja.exe
+jvmArgs : 
+

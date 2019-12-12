@@ -2,7 +2,10 @@
 
 结合[ReLinker](https://github.com/KeepSafe/ReLinker)与[AndroidUn7z](https://github.com/hzy3774/AndroidUn7zip)实现
 
-通过脚本[so7Z.gradle](sample/so7Z.gradle)实现移动压缩so到assets下,压缩格式为7z
+通过脚本[so7Z.gradle](sample/so7Z.gradle)实现移动压缩so到assets下,压缩格式为7z.
+```java
+//TODO 目前脚本7z可执行文件为手动配置,待改善使用local.properties动态配置
+```
 
 扩展ReLinker的[ApkLibraryInstaller](relinker/src/main/java/com/getkeepsafe/relinker/ApkLibraryInstaller.java) -> [ApkAssets7ZLibraryInstaller.java](relinker/src/main/java/com/getkeepsafe/relinker/ApkAssets7ZLibraryInstaller.java)实现解压与加载
 

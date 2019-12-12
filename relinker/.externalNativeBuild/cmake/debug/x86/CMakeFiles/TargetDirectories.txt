@@ -1,0 +1,3 @@
+D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/x86/CMakeFiles/un7zip.dir
+D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
+D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir

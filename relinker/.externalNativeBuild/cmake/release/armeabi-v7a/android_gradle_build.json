@@ -1,0 +1,150 @@
+{
+  "stringTable": {
+    "0": "D:/Work/ReLinker/relinker/.externalNativeBuild/cmake/release/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/WorkTools/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dun7zip_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -Wall -Oz -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "D:\\WorkTools\\Android-SDK\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "D:\\WorkTools\\Android-SDK\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\WorkTools\\Android-SDK\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\Work\\ReLinker\\relinker\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "un7zip-Release-armeabi-v7a": {
+      "buildCommand": "D:\\WorkTools\\Android-SDK\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\Work\\ReLinker\\relinker\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target un7zip",
+      "buildType": "release",
+      "toolchain": "1891152025",
+      "abi": "armeabi-v7a",
+      "artifactName": "un7zip",
+      "files": [
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\7zExtracter.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\7zFunctions.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zAlloc.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zArcIn.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zAssetFile.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zBuf.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zBuf2.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zCrc.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zCrcOpt.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zDec.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zFile.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\7zStream.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\Bcj2.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\Bra.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\Bra86.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\BraIA64.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\CpuArch.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\Delta.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\Lzma2Dec.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\LzmaDec.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\Ppmd7.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\src\\Ppmd7Dec.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\un7zip.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "D:\\Work\\ReLinker\\relinker\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libun7zip.so"
+    }
+  },
+  "toolchains": {
+    "1891152025": {
+      "cCompilerExecutable": "D:\\WorkTools\\Android-SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

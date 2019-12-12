@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "D:\\WorkTools\\Android-SDK\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "D:\\WorkTools\\Android-SDK\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "D:\\Work\\ReLinker\\relinker\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\WorkTools\\Android-SDK\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\Work\\ReLinker\\relinker\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+  ],
+  "libraries": {
+    "un7zip-Debug-x86": {
+      "artifactName": "un7zip",
+      "buildCommand": "D:\\WorkTools\\Android-SDK\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\Work\\ReLinker\\relinker\\.externalNativeBuild\\cmake\\debug\\x86 --target un7zip",
+      "abi": "x86",
+      "output": "D:\\Work\\ReLinker\\relinker\\build\\intermediates\\cmake\\debug\\obj\\x86\\libun7zip.so"
+    }
+  }
+}

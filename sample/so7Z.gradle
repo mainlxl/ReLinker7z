@@ -8,7 +8,7 @@ Task transformReleaseSo2Assets = project.task('transformReleaseSo2Assets') {
         sos.forEach({ name ->
             println "transformReleaseSo2Assets--------------执行-> ${index++}.$name"
             transformSo("$buildDir/intermediates/transforms/stripDebugSymbol/release/0/lib",//
-                    "$buildDir/intermediates/merged_assets/release/mergeReleaseAssets/out/lib/", name)
+                    "$buildDir/intermediates/merged_assets/release/mergeReleaseAssets/out/lib", name)
         })
     }
 }
@@ -18,7 +18,7 @@ private void transformSo(String sourceDir, String dstDir, String name) {
     source.forEach({ path ->
         def src = file("$sourceDir/$path")
         if (src.exists()) {
-            File dest = file("${dstDir}${path.replace(".so", ".7z")}")
+            File dest = file("${dstDir}/${path.replace(".so", ".7z")}")
             def parentFile = dest.getParentFile()
             if (!parentFile.exists()) {
                 parentFile.mkdirs()
